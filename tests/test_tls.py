@@ -14,12 +14,12 @@ from oscrypto import tls, errors, backend
 from oscrypto._tls import parse_tls_records, parse_handshake_messages
 from asn1crypto import x509
 
-from .unittest_data import data_decorator, data
-from .exception_context import assert_exception
-from ._unittest_compat import patch
-from ._https_client import HttpsClient
-from ._socket_proxy import make_socket_proxy
-from ._socket_server import make_socket_server
+from tests.unittest_data import data_decorator, data
+from tests.exception_context import assert_exception
+from tests._unittest_compat import patch
+from tests._https_client import HttpsClient
+from tests._socket_proxy import make_socket_proxy
+from tests._socket_server import make_socket_server
 
 if sys.version_info < (3,):
     import thread

@@ -8,8 +8,8 @@ import os
 import asn1crypto
 from oscrypto import keys, backend
 
-from .unittest_data import data_decorator, data
-from ._unittest_compat import patch
+from tests.unittest_data import data_decorator, data
+from tests._unittest_compat import patch
 
 patch()
 

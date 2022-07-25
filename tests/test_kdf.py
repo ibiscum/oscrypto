@@ -6,7 +6,7 @@ import sys
 
 from oscrypto import kdf, _pkcs5
 
-from ._unittest_compat import patch
+from tests._unittest_compat import patch
 
 patch()
 

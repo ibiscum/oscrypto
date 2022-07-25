@@ -6,9 +6,9 @@ import sys
 
 from oscrypto import symmetric, util, backend
 
-from ._unittest_compat import patch
-from .exception_context import assert_exception
-from .unittest_data import data_decorator, data
+from tests._unittest_compat import patch
+from tests.exception_context import assert_exception
+from tests.unittest_data import data_decorator, data
 
 patch()
 

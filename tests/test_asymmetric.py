@@ -8,7 +8,7 @@ import os
 from asn1crypto import pem, algos, keys, core
 from oscrypto import asymmetric, errors, backend
 
-from ._unittest_compat import patch
+from tests._unittest_compat import patch
 
 patch()
 

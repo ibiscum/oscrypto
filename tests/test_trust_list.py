@@ -9,7 +9,7 @@ import sys
 from oscrypto import trust_list
 from asn1crypto import x509, pem
 
-from ._unittest_compat import patch
+from tests._unittest_compat import patch
 
 patch()
 
